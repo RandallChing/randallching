@@ -17,7 +17,7 @@ These four projects serve as the direct evidence for the workflows and data chal
 
 ### 2. [csv-validation-pipeline](https://github.com/randallching/csv-validation-pipeline) (Python)
 *   **The Focus:** A data integrity verification script standardized for clinical chart audits.
-*   **The Constraint:** Built to adapt to the real-world workflows of school nurses. Shifting the validation triggers to Tuesday mornings eliminated false alarms on incomplete previous Friday entries, driving down reporting errors by 60% YoY.
+*   **The Constraint:** Built to adapt to the real-world workflows of school nurses. Shifting the validation triggers to Tuesday mornings eliminated false alarms on incomplete previous Friday entries being fixed by nurses on Mondays, driving down reporting errors by 60% YoY.
 
 ### 3. [harm-reduction-db-template](https://github.com/randallching/harm-reduction-db-template) (SQL/REDCap)
 *   **The Focus:** A generic relational database schema and REDCap template mapping paper logs to digital clinic encounters.
