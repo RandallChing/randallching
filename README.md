@@ -8,7 +8,7 @@ I operate at the intersection of computer science, public health, and K-12 educa
 
 ## Core Projects
 
-These four projects serve as the direct evidence locker for the workflows and data challenges documented in my fellowship application:
+These four projects serve as the direct evidence for the workflows and data challenges documented in my fellowship application:
 
 ### 1. [teen-health-screener](https://github.com/randallching/teen-health-screener) (HTML/JS)
 *   **The Focus:** An offline-first, client-side screening app (PHQ-9/GAD-7/C-SSRS) served standalone via Google Apps Script. 
