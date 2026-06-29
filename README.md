@@ -24,7 +24,7 @@ These projects serve as the direct evidence for the technical solutions document
 
 ---
 
-## 🧠 My Operational Philosophy
+## My Operational Philosophy
 
 *   **Constraint-First Engineering:** Prioritizing lightweight, durable solutions that fit within the host organization's existing licensing and hardware constraints.
 *   **Operational Humility:** Shadowing operators in their physical work environments to map their daily workflow before writing any code.
