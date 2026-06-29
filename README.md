@@ -8,16 +8,19 @@ I operate at the intersection of computer science, public health, and K-12 educa
 
 ## Core Projects
 
-These projects serve as the direct evidence for the workflows and data challenges documented in my fellowship application:
+These projects serve as the direct evidence for the technical solutions documented in my fellowship application:
 
-### 1. [teen-health-screener](https://github.com/randallching/teen-health-screener) (HTML/JS)
-*   **The Focus:** An offline-first, client-side screening app (PHQ-9/GAD-7/C-SSRS) served standalone via Google Apps Script. 
-*   **The Constraint:** Explicitly built to run on shared clinic iPads with zero server maintenance overhead, zero hosting budgets, and within rigid school district network firewalls.
+### 1. [teen-health-screener](https://github.com/randallching/teen-health-screener) (HTML/JS, Google Apps Script)
+*   **The Focus:** A client-side screening app (handling PHQ-9, GAD-7, and C-SSRS protocols) served standalone via Google Apps Script. 
+*   **The Constraint:** Explicitly engineered to run on shared clinic iPads with zero server maintenance overhead, zero hosting budgets, and no backend database. It outputs structured, standardized screening results optimized to match Epic EHR documentation schemas, allowing nurses to rapidly verify and log data with zero formatting friction.
 *   👉 *[Click here for the Live Demo](https://randallching.github.io/teen-health-screener/)*
 
-### 2. [csv-validation-pipeline](https://github.com/randallching/csv-validation-pipeline) (Python)
+### 2. [csv-validation-pipeline](https://github.com/randallching/csv-validation-pipeline) (Python, Google Apps Script)
 *   **The Focus:** A data integrity verification script standardized for clinical chart audits.
-*   **The Constraint:** Built to adapt to the real-world workflows of school nurses. Shifting the validation triggers to Tuesday mornings eliminated false alarms on incomplete previous Friday entries being fixed by nurses on Mondays, driving down reporting errors by 60% YoY.
+*   **The Constraint:** Clinical charts must adhere to strict, standardized regulatory rules. This script bridges data auditing with human workflow optimization through a two-part automated pipeline:
+    *   **The Audit Engine (Python):** Automatically scans clinical chart csv exports, identifies validation anomalies, and isolates flagged records.
+    *   **The Notification System (Google Apps Script):** Packages the flagged errors into clean, chronologically sorted, and highly scannable email tables sent directly to staff. Every notification uses standardized, jargon-free messaging so nurses instantly understand exactly why a record was flagged.
+    *   **Workflow Alignment:** Built around the actual data-entry habits of school nurses. Shifting the automated validation triggers to Tuesday mornings allowed nurses to fix previous week's entries on Monday afternoon. This simple operational adjustment eliminated false alarms and drove down weekly charting errors by 60% YoY.
 
 ---
 
