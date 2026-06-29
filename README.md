@@ -1,14 +1,14 @@
 # Hi, I'm Randall Ching 👋
 
-I operate at the intersection of computer science, public health, and K-12 education. I build simple, secure, and low-maintenance digital tools to solve workflow bottlenecks in under-resourced public settings.
+I operate at the intersection of computer science, public health, and K-12 education. I build simple, secure, and low-maintenance digital tools to solve operational bottlenecks in under-resourced public settings.
 
-*I transitioned from biology to computer science because my time in clinical and harm-reduction spaces showed me that legacy technology is the single biggest bottleneck for non-profit operations. I use my technical background to bridge this gap, focusing on tools that staff on the ground can own long-term.*
+*I transitioned from biology to computer science because my time in public health non-profit spaces showed me that high-maintenance software is the single biggest bottleneck for non-profit operations. I use my technical background to bridge this gap, focusing on tools that staff on the ground can own long-term.*
 
 ---
 
 ## Core Projects
 
-These four projects serve as the direct evidence for the workflows and data challenges documented in my fellowship application:
+These projects serve as the direct evidence for the workflows and data challenges documented in my fellowship application:
 
 ### 1. [teen-health-screener](https://github.com/randallching/teen-health-screener) (HTML/JS)
 *   **The Focus:** An offline-first, client-side screening app (PHQ-9/GAD-7/C-SSRS) served standalone via Google Apps Script. 
