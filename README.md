@@ -12,7 +12,7 @@ These projects serve as the direct evidence for the technical solutions document
 
 ### 1. [teen-health-screener](https://github.com/randallching/teen-health-screener) (HTML/JS, Google Apps Script)
 *   **The Focus:** A client-side screening app (handling PHQ-9, GAD-7, and C-SSRS protocols) served standalone via Google Apps Script. 
-*   **The Constraint:** Explicitly engineered to run on shared clinic iPads with zero server maintenance overhead, zero hosting budgets, and no backend database. It outputs structured, standardized screening results optimized to match Epic EHR documentation schemas, allowing nurses to rapidly verify and log data with zero formatting friction.
+*   **The Constraint:** Explicitly engineered to run on organization-managed clinic iPads with zero server maintenance overhead, zero hosting budgets, and no backend database. It outputs structured, standardized screening results optimized to match Epic EHR documentation schemas, allowing nurses to rapidly verify and log data with zero formatting friction.
 *   👉 *[Click here for the Live Demo](https://randallching.github.io/teen-health-screener/)*
 
 ### 2. [csv-validation-pipeline](https://github.com/randallching/csv-validation-pipeline) (Python, Google Apps Script)
