@@ -20,7 +20,7 @@ These projects serve as the direct evidence for the technical solutions document
 *   **The Constraint:** Clinical charts must adhere to strict, standardized regulatory rules. This script bridges data auditing with human workflow optimization through a two-part automated pipeline:
     *   **The Audit Engine (Python):** Automatically scans clinical chart csv exports, identifies validation anomalies, and isolates flagged records.
     *   **The Notification System (Google Apps Script):** Packages the flagged errors into clean, chronologically sorted, and highly scannable email tables sent directly to staff. Every notification uses standardized, jargon-free messaging so nurses instantly understand exactly why a record was flagged.
-    *   **Workflow Alignment:** Built around the actual data-entry habits of school nurses. Shifting the automated validation triggers to Tuesday mornings allowed nurses to fix previous week's entries on Monday afternoon. This simple operational adjustment eliminated false alarms and drove down weekly charting errors by 60% YoY.
+    *   **Workflow Alignment:** Built around the actual data-entry habits of school nurses. Shifting the automated validation triggers to Tuesday mornings accounted for human data-entry lag over the weekend, eliminating false alarms and driving down reporting errors by 60% YoY.
 
 ---
 
