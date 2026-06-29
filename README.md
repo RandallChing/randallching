@@ -19,14 +19,6 @@ These four projects serve as the direct evidence for the workflows and data chal
 *   **The Focus:** A data integrity verification script standardized for clinical chart audits.
 *   **The Constraint:** Built to adapt to the real-world workflows of school nurses. Shifting the validation triggers to Tuesday mornings eliminated false alarms on incomplete previous Friday entries being fixed by nurses on Mondays, driving down reporting errors by 60% YoY.
 
-### 3. [harm-reduction-db-template](https://github.com/randallching/harm-reduction-db-template) (SQL/REDCap)
-*   **The Focus:** A generic relational database schema and REDCap template mapping paper logs to digital clinic encounters.
-*   **The Constraint:** Designed for high-turnover volunteer environments, backed by a comprehensive step-by-step database SOP to ensure operational continuity across volunteer shifts.
-
-### 4. [intranet-knowledge-schema](https://github.com/randallching/intranet-knowledge-schema) (Information Architecture)
-*   **The Focus:** An organizational blueprint mapping legacy files into a centralized Google Sites intranet portal.
-*   **The Constraint:** Structured around shared drive folder syncing, allowing non-technical staff to update clinic SOPs via drag-and-drop document swaps without touching code.
-
 ---
 
 ## 🧠 My Operational Philosophy
