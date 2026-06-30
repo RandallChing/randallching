@@ -15,7 +15,7 @@ These projects serve as the direct evidence for the technical solutions document
 *   **The Constraint:** Explicitly engineered to run on organization-managed clinic iPads with zero server maintenance overhead, zero hosting budgets, and no backend database. It outputs structured, standardized screening results optimized to match Epic EHR documentation schemas, allowing nurses to rapidly verify and log data with zero formatting friction.
 *   👉 *[Click here for the Live Demo](https://randallching.github.io/teen-health-screener/)*
 
-### 2. [csv-validation-pipeline](https://github.com/randallching/csv-validation-pipeline) (Python, Google Apps Script)
+### 2. [clinical-chart-validation-pipeline](https://github.com/randallching/clinical-chart-validation-pipeline) (Python, Google Apps Script)
 *   **The Focus:** A data integrity verification script standardized for clinical chart audits.
 *   **The Constraint:** Clinical charts must adhere to strict, standardized regulatory rules. This script bridges data auditing with human workflow optimization through a two-part automated pipeline:
     *   **The Audit Engine (Python):** Automatically scans clinical chart csv exports, identifies validation anomalies, and isolates flagged records.
