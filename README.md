@@ -28,4 +28,4 @@ These projects serve as the direct evidence for the technical solutions document
 
 *   **Constraint-First Engineering:** Prioritizing lightweight, durable solutions that fit within the host organization's existing licensing and hardware constraints.
 *   **Operational Humility:** Shadowing operators in their physical work environments to map their daily workflow before writing any code.
-*   **Designed for Departure:** Building code, runbooks, and file structures specifically so that non-technical staff can confidently maintain the tools after my deployment ends.
+*   **Designed for Departure:** Building code, runbooks, and file structures specifically so that staff can confidently maintain the tools after my deployment ends.
